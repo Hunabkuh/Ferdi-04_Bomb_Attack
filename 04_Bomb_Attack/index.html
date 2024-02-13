@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>¡Bomb Attack!</title>
+  </head>
+  <!-- BOMB-ATTACK!
+
+Tenemos 9 imágenes de bomba, bien separadas entre sí (la imagen puede ser la misma).
+
+Son separadas para que no pises una sin querer.
+
+De las bombas, 8 de 9, al pasar por encima, explotan (imagen explosión)
+
+Una de ellas, contiene agua o un extintor, etc. El resto explotan!
+
+Esto se puede hacer con background-image, cambiando la URL de la imagen en :hover
+
++EXTRA: Se puede probar que aparezcan o desaparezcan cosas con opacity, display y visibility -->
+  <body>
+    <div class="body">
+      <header class="header">
+        <div>
+          <h1>¡BOMB-ATTACK!</h1>
+        </div>
+      </header>
+
+      <section class="section">
+        <div class="container">
+          <div class="trios">
+            <div class="bomba1"><h4>Bomba 1</h4></div>
+            <div class="bomba2"><h4>Bomba 2</h4></div>
+            <div class="bomba3"><h4>Bomba 3</h4></div>
+          </div>
+          <div class="trios">
+            <div class="bomba1"><h4>Bomba 4</h4></div>
+            <div class="bomba_mala"><h4>Bomba 5</h4></div>
+            <div class="bomba3"><h4>Bomba 6</h4></div>
+          </div>
+          <div class="trios">
+            <div class="bomba1"><h4>Bomba 7</h4></div>
+            <div class="bomba2"><h4>Bomba 8</h4></div>
+            <div class="bomba3"><h4>Bomba 9</h4></div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>

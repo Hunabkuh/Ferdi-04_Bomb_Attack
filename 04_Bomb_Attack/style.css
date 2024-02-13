@@ -1,0 +1,128 @@
+.body {
+    background-image: url(/03_Pagina_Biografia/Img/fondo_madera.webp);
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.header {
+    color: red;
+    text-align: center;
+    justify-content: center;
+    text-align: center;
+    text-shadow: 5px 5px 10px #ffe100;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-stretch: expanded;
+    align-items: center;
+}
+
+section {
+
+    display: flex;
+    justify-content: center;
+}
+
+.trios {
+
+
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    margin: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.container {
+
+
+    display: grid;
+    background-size: cover;
+    flex-wrap: wrap;
+}
+
+.bomba1 {
+    border: 3px;
+    border-style: solid;
+
+    gap: 10px;
+    width: 200px;
+    height: 200px;
+    background-image: url(/04_Bomb_Attack/Img/bomb1.jpg);
+    background-size: cover;
+}
+
+.bomba2 {
+    border: 3px;
+    border-style: solid;
+
+    gap: 10px;
+    width: 200px;
+    height: 200px;
+    background-image: url(/04_Bomb_Attack/Img/bomb2.jpg);
+    background-size: cover;
+}
+
+.bomba3 {
+    border: 3px;
+    border-style: solid;
+
+    gap: 10px;
+    width: 200px;
+    height: 200px;
+    background-image: url(/04_Bomb_Attack/Img/bomb3.webp);
+    background-size: cover;
+}
+
+.bomba_mala {
+    border: 3px;
+    border-style: solid;
+
+    gap: 10px;
+    width: 200px;
+    height: 200px;
+    background-image: url(/04_Bomb_Attack/Img/bomb2.jpg);
+    background-size: cover;
+}
+
+.bomba1:hover {
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.513);
+    scale: 200%;
+    translate: 0px;
+    transition: 2s;
+    background-image: url(/04_Bomb_Attack/Img/extinguido.gif);
+    background-color: black;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.bomba2:hover {
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.513);
+    scale: 200%;
+    translate: 0px;
+    transition: 2s;
+    background-image: url(/04_Bomb_Attack/Img/extinguido.gif);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.bomba3:hover {
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.513);
+    scale: 200%;
+    translate: 0px;
+    transition: 2s;
+    background-image: url(/04_Bomb_Attack/Img/tortuga.gif);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+
+.bomba_mala:hover {
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.513);
+    scale: 150%;
+    translate: 0px;
+    transition: 2s;
+    background-image: url(/04_Bomb_Attack/Img/coyote.gif);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
